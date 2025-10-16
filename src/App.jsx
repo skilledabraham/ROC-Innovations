@@ -9,7 +9,7 @@ function App() {
   return (
     
     <Routes>
-      <Route path="/" element={<Login></Login>} />
+      <Route path="/" element={<Header></Header>} />
       <Route
         path="/shop"
         element={<div className="text-center mt-20 text-3xl">Shop Page</div>}
