@@ -2,14 +2,12 @@ import React from "react";
 import { Router } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Header from "./assets/Components/Header";
-import Footer from "./assets/Components/Footer";
+import Home from "./assets/Components/Home";
 
 function App() {
   return (
-    
     <Routes>
-      <Route path="/" element={<Header></Header>} />
+      <Route path="/" element={<Home></Home>} />
       <Route
         path="/shop"
         element={<div className="text-center mt-20 text-3xl">Shop Page</div>}
