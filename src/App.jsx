@@ -1,15 +1,19 @@
 import React from "react";
 import "./App.css";
+import Header from "./assets/Components/Header";
+import Footer from "./assets/Components/Footer";
 
 function App() {
   return (
     <>
-      <div className="bg-blue-300">
-        <h1 className="bg-red-500 text-green-500 p-4 rounded">
-          Babe Let's Create
-        </h1>
-        <p>Just as God did.</p>
-      </div>
+      <Header />
+      <Footer />
+      {/* <div className="container mx-auto mt-10">
+        <h1 className="text-3xl font-bold text-center">Welcome to E-Shop</h1>
+        <p className="text-center mt-4 text-gray-600">
+          Your one-stop shop for all your needs!
+        </p>
+      </div> */}
     </>
   );
 }
