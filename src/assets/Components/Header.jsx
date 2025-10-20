@@ -1,19 +1,21 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
+import logo from "./../images/AdunYemi Empire Logo.png";
 
 const Header = () => {
   return (
     <header className="bg-white min-w-screen  shadow-md">
-      <div className="container min-w-screen mx-auto px-4 py-3 flex items-center justify-between">
+      <div className=" container min-w-screen  mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <div className="text-2xl font-bold pl-10 text-gray-800">
-          <a href="/" className="text-orange-600">
-            Posi Bello
-          </a>
+        <div
+          className="absolute block text-gray-800 overflow-visible
+         w-32 h-20 "
+        >
+          <img src={logo} className="" alt="" />
         </div>
 
         {/* Navigation Links */}
-        <nav className="flex space-x-20">
+        <nav className="flex   lg:visible lg:block space-x-20">
           <a href="/" className="text-gray-600 hover:text-gray-800">
             Home
           </a>
